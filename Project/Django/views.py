@@ -3,7 +3,7 @@ import requests
 
 def get_openf1_data(request):
     # Make a GET request to the OpenF1 API
-    response = requests.get('https://api.openf1.org/v1/some-endpoint')
+    response = requests.get('https://api.openf1.org/v1/drivers?driver_number=1&session_key=9158')
 
     # Check if the request was successful
     if response.status_code == 200:
