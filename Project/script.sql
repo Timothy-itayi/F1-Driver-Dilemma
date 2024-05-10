@@ -1,0 +1,3 @@
+CREATE DATABASE IF NOT EXISTS f1database;
+USE f1database;
+
